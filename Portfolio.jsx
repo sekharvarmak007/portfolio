@@ -316,7 +316,7 @@ const Portfolio = () => {
                             {/* Photo */}
                             <div className="relative w-64 h-64 md:w-[320px] md:h-[320px] rounded-full overflow-hidden z-10 transition-transform duration-700 hover:scale-[1.02] hover:shadow-[0_30px_60px_rgba(40,54,24,0.12)]"
                                 style={{ border: `8px solid ${colors.card}`, boxShadow: '0 20px 40px rgba(40,54,24,0.08)' }}>
-                                <img src="./profile.jpg" alt="Sekhar Varma" className="w-full h-full object-cover object-top" />
+                                <img src="/profile.jpg" alt="Sekhar Varma" className="w-full h-full object-cover object-top" />
                                 {/* Vintage/Warm overlay */}
                                 <div className="absolute inset-0 mix-blend-overlay opacity-20" style={{ backgroundColor: '#D4A373' }}></div>
                             </div>
